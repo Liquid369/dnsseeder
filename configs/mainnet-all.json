@@ -1,12 +1,10 @@
 {
   "Name": "Mainnet All",
-  "Desc": "Bitcoin Cash Mainnet - All",
-  "Id": "0xe8f3e1e3",
-  "Port": 8333,
-  "Pver": 70001,
-  "DNSName": "seed.bchd.cash",
+  "Desc": "DogeCash Mainnet - All",
+  "Id": "0xa0431619",
+  "Port": 56740,
+  "Pver": 70917,
+  "DNSName": "seeds.dogec.io",
   "TTL": 600,
-  "Seeder1": "seed.bitcoinabc.org",
-  "Seeder2": "seed-abc.bitcoinforks.org",
-  "Seeder3": "btccash-seeder.bitcoinunlimited.info"
+  "Seeder1": "x9.seeds.dogec.io"
 }
