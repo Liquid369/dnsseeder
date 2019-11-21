@@ -35,18 +35,17 @@ func createNetFile() {
 
 	// create a struct to encode with json
 	jnw := &JNetwork{
-		ID:         "0xabcdef01",
-		Port:       1234,
-		Pver:       70001,
+		ID:         "0xa0431619",
+		Port:       56740,
+		Pver:       70917,
 		TTL:        600,
-		DNSName:    "seeder.example.com",
-		NameServer: "nameserver.example.com",
-		Name:       "SeederNet",
-		Mbox:       "admin.example.com", // @ symbol replaced with period
-		Desc:       "Description of SeederNet",
-		Seeder1:    "seeder1.example.com",
-		Seeder2:    "seed1.bob.com",
-		Seeder3:    "seed2.example.com",
+		DNSName:    "seeds.dogec.io",
+		NameServer: "x9.seeds.dogec.io",
+		Name:       "DogeCashNet",
+		Mbox:       "james.s.dogec.io", // @ symbol replaced with period
+		Desc:       "DogeCash Network Seeder",
+		Seeder1:    "seeds.dogec.io",
+		Seeder2:    "x9.seeds.dogec.io",
 	}
 
 	f, err := os.Create("dnsseeder.json")

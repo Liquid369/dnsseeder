@@ -1,20 +1,18 @@
 {
   "Name": "Mainnet Node CF",
-  "Desc": "Bitcoin Cash Mainnet - NodeCF",
-  "Id": "0xe8f3e1e3",
-  "Port": 8333,
-  "Pver": 70001,
-  "DNSName": "x101.seed.bchd.cash",
+  "Desc": "DogeCash Mainnet - NodeCF",
+  "Id": "0xa0431619",
+  "Port": 56740,
+  "Pver": 70917,
+  "DNSName": "x9.seeds.dogec.io",
   "TTL": 600,
-  "Seeder1": "seed.bitcoinabc.org",
-  "Seeder2": "seed-abc.bitcoinforks.org",
-  "Seeder3": "btccash-seeder.bitcoinunlimited.info",
+  "Seeder1": "seeds.dogec.io",
   "ServiceFilter": [
     "NodeNetwork",
     "NodeCF"
   ],
   "UserAgentFilter": [
-    "bchd:0.15.0",
-    "bchd:0.15.1"
+    "DogeCashCore 5.0.1",
+    "SneakDoge:0.0.1"
   ]
 }
